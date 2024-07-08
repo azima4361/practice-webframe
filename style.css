@@ -1,0 +1,95 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.navbar .navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+
+.nav-title h3 {
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.nav-menu ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-menu ul li {
+  list-style: none;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-icon {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-icon i {
+  font-size: 25px;
+}
+
+.btn1 {
+  width: 150px;
+  height: 55px;
+  border-radius: 5px;
+  background-color: red;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  border: none;
+}
+header{
+  background: linear-gradient(rgba(105, 110, 255, 0.8),rgb(248, 172, 255, 0.8)) , url('/images/laptop-tab.jpg') no-repeat center center / cover;
+  height: 100vh;
+}
+.banner-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+
+  
+}
+.banner-container h6{
+  font-size: 30px;
+  font-weight: 600;
+}
+.banner-contact{
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+.banner-contact button{
+  padding: 10px 10px;
+  border-radius: 30px;
+  color: black;
+}
+.banner-contact p{
+  font-size: 13px;
+}
+  
